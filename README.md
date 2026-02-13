@@ -16,12 +16,13 @@ https://youtu.be/I0qHqRNGK9A
 
 * Automatically aims at **Moss Block** and right-clicks with bone meal
 * Automatically breaks:
-
   * Moss Carpet
   * Azalea
   * Flowering Azalea
   * Grass
   * Tall Grass
+* **Automatically refills Bone Meal to your hotbar from inventory**
+* **Automatically searches inventory for Bone Meal when the hotbar runs out**
 * Repeats the cycle continuously for efficient moss farming
 * Fully **client-side** (no server mod required)
 * Toggle ON/OFF in-game
@@ -35,9 +36,9 @@ https://youtu.be/I0qHqRNGK9A
 1. Hold **Bone Meal**
 2. Look at a Moss Block
 3. The mod will:
-
    * Use bone meal on moss
    * Remove unwanted plants
+   * Refill Bone Meal from inventory if needed
    * Re-aim at moss
    * Repeat automatically
 
@@ -74,6 +75,7 @@ The toggle key can be changed from:
 
 * Implemented using a `MinecraftClient` tick mixin
 * Uses client interaction manager to simulate correct click actions
+* Includes automatic inventory management for Bone Meal
 * Does not modify server behavior
 * Safe to use in any world or server (client-side only)
 
