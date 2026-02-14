@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tamagotweaks",
+  "version": "1.0.1",
+  "name": "TamagoTweaks-1.0.1",
+  "description": "Client-side tweaks for efficient moss farming.",
+  "authors": [
+    "Tamago0314"
+  ],
+  "license": "MIT",
+  "icon": "assets/tamagotweaks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.tamago0314.tamagotweaks.Mossuse"
+    ],
+    "modmenu": [
+      "dev.tamago0314.tamagotweaks.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "tamagotweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.19.4",
+    "modmenu": "*"
+  }
+}
