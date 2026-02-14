@@ -1,8 +1,0 @@
-{
-  "required": true,
-  "package": "dev.tamago0314.tamagotweaks.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "client": [
-    "MossAimMixin"
-  ]
-}
